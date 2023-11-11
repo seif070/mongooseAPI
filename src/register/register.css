@@ -1,0 +1,61 @@
+/* styles.css */
+
+.bodyRegister {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url'https://img.freepik.com/photos-gratuite/abstrait-numerique-grille-fond-noir_53876-97647.jpg?w=740&t=st=1699655080~exp=1699655680~hmac=8fcb66a5d8abad472e4e943c7e1e068b9122a061ed09e350dca6cd61db48b5ef'; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.name-help,
+.email-help {
+  color: #888;
+  font-size: 12px;
+}
+
+.submit {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.optimize {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+}
