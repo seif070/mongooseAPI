@@ -13,7 +13,7 @@ const Login = () => {
 
   const handleLogin = async (values) => {
     try {
-      const res = await axios.post('http://localhost:5002/auth/login', values);
+      const res = await axios.post('http://localhost:5002/auth/login', values)
       console.log('res', res);
       await localStorage.setItem('token', res.data.token); 
       navigate('/app/privateRoute');
